@@ -4,7 +4,7 @@
   "description": "A todo list API with json-server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server -h localhost -p 8000 db/db.json",
+    "start": "json-server -h localhost -p 8000 db.json",
     "test": "test"
   },
   "repository": {
