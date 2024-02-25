@@ -1,0 +1,26 @@
+{
+  "name": "emily-todo-api",
+  "version": "1.0.0",
+  "description": "A todo list API with json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -h localhost -p 8000 db/db.json",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khantwaikyaw/emily-todo-api.git"
+  },
+  "keywords": [
+    "emily-todo-api"
+  ],
+  "author": "Khant Wai Kyaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khantwaikyaw/emily-todo-api/issues"
+  },
+  "homepage": "https://github.com/khantwaikyaw/emily-todo-api#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
